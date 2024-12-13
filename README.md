@@ -8,13 +8,12 @@ Passaggi per l'Esercizio
 Modulo utilizzato: auxiliary/scanner/telnet/telnet_version
 Comandi principali:
 Impostare l'IP della macchina target:
-bash
-Copia codice
+
 set RHOST 192.168.1.218
 Eseguire il modulo:
-bash
-Copia codice
+
 run
+
 Risultati attesi:
 Visualizzazione delle informazioni sul servizio Telnet della macchina target.
 Raccolta di dettagli utili per ulteriori analisi.
@@ -23,26 +22,21 @@ Modulo utilizzato: auxiliary/scanner/telnet/telnet_login
 Passaggi:
 Configurare i parametri del modulo:
 IP della vittima:
-bash
-Copia codice
+
 set RHOST 192.168.1.218
 File di dizionario per utenti e password:
-bash
-Copia codice
+
 set USER_FILE <path_file_utenti>
 set PASS_FILE <path_file_password>
 Abilitare l'arresto al primo successo:
-bash
-Copia codice
+
 set STOP_ON_SUCCESS true
 Regolare il numero di thread per ottimizzare la velocità:
-bash
-Copia codice
+
 set THREADS 5
 Avviare l'attacco:
-bash
-Copia codice
 run
+
 Risultati attesi:
 Accesso forzato alla macchina target utilizzando un dizionario.
 Identificazione di combinazioni valide di credenziali.
