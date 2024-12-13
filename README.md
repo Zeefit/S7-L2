@@ -1,7 +1,7 @@
 Scenari e Configurazioni Preliminari
 Configurazione degli IP:
-Kali Linux: 192.168.1.25
-Metasploitable: 192.168.1.40
+Kali Linux: 192.168.1.228
+Metasploitable: 192.168.1.218
 Obiettivo: Verificare la versione di Telnet su Metasploitable, identificare vulnerabilità e simulare un attacco brute-force utilizzando dizionari.
 Passaggi per l'Esercizio
 1. Identificazione della Versione di Telnet
@@ -10,7 +10,7 @@ Comandi principali:
 Impostare l'IP della macchina target:
 bash
 Copia codice
-set RHOST 192.168.1.40
+set RHOST 192.168.1.218
 Eseguire il modulo:
 bash
 Copia codice
@@ -25,7 +25,7 @@ Configurare i parametri del modulo:
 IP della vittima:
 bash
 Copia codice
-set RHOST 192.168.1.40
+set RHOST 192.168.1.218
 File di dizionario per utenti e password:
 bash
 Copia codice
